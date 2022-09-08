@@ -24,102 +24,190 @@ defined('ABSPATH') || exit;
 do_action('woocommerce_email_header', $email_heading, $email); ?>
 
 
-<tr>
-	<td class="side-pad" align="center">
-		<table class="body" width="560" border="0" cellspacing="0" cellpadding="0">
-			<tbody>
-				<tr>
-					<td style="font-family: 'open-sans',sans-serif; font-size: 14px ; color: #9b9b9b ; line-height: 20px ; ">
-						<?php /* translators: %s: Customer first name */ ?>
-						<p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($order->get_billing_first_name())); ?></p>
-
-						<p>
-							<?php
-							if ($partial_refund) {
-								/* translators: %s: Site title */
-								printf(esc_html__('Your order on %s has been partially refunded. There are more details below for your reference:', 'woocommerce'), wp_specialchars_decode(get_option('blogname'), ENT_QUOTES)); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped
-							} else {
-								/* translators: %s: Site title */
-								printf(esc_html__('Your order on %s has been refunded. There are more details below for your reference:', 'woocommerce'), wp_specialchars_decode(get_option('blogname'), ENT_QUOTES)); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped
-							}
-							?>
-						</p>
-
-					</td>
-					<td width="19%" valign="top" style="padding-top: 5px ; ">
-						<table width="100%" border="0" cellspacing="0" cellpadding="0">
-							<tbody>
-								<tr>
-									<td>
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
-											<tbody>
-												<tr>
-													<td width="45%" style="font-size: 14px ; color:  ; font-family: 'open-sans',sans-serif ;">Order</td>
-													<td width="55%" bgcolor="#000000" style="padding: 5px ; font-size: 14px ; color: #FFFFFF ; font-family: 'open-sans',sans-serif ; border-radius: 10px ;  " align="center"><strong><?php echo $order->get_order_number(); ?></strong></td>
-												</tr>
-											</tbody>
-										</table>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
 
 
-				<?php
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                background-color: #ed1e79;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
+					<tbody>
+						<tr>
+							<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            padding-top: 5px;
+                                                            padding-bottom: 5px;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="100%">
+								<table border="0" cellpadding="20" cellspacing="0" class="text_block block-1" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                                word-break: break-word;
+                                                            " width="100%">
+									<tr>
+										<td class="pad">
+											<div style="
+                                                                            font-family: Tahoma,
+                                                                                Verdana,
+                                                                                sans-serif;
+                                                                        ">
+												<div class="" style="
+                                                                                font-size: 14px;
+                                                                                font-family: 'Lato',
+                                                                                    Tahoma,
+                                                                                    Verdana,
+                                                                                    Segoe,
+                                                                                    sans-serif;
+                                                                                mso-line-height-alt: 16.8px;
+                                                                                color: #000000;
+                                                                                line-height: 1.2;
+                                                                            ">
+													<p style="
+                                                                                    margin: 0;
+                                                                                    font-size: 14px;
+                                                                                    text-align: center;
+                                                                                    mso-line-height-alt: 16.8px;
+                                                                                ">
+														<span style="
+                                                                                        font-size: 16px;
+                                                                                    ">
+															<strong>
 
-				/*
+																<?php /* translators: %s: Customer first name */ ?>
+																<p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($order->get_billing_first_name())); ?></p>
+
+																<p>
+																	<?php
+																	if ($partial_refund) {
+																		/* translators: %s: Site title */
+																		printf(esc_html__('Your order on %s has been partially refunded. There are more details below for your reference:', 'woocommerce'), wp_specialchars_decode(get_option('blogname'), ENT_QUOTES)); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped
+																	} else {
+																		/* translators: %s: Site title */
+																		printf(esc_html__('Your order on %s has been refunded. There are more details below for your reference:', 'woocommerce'), wp_specialchars_decode(get_option('blogname'), ENT_QUOTES)); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped
+																	}
+																	?>
+																</p>
+
+															</strong>
+														</span>
+													</p>
+												</div>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+<?php
+
+/*
  * @hooked WC_Emails::order_details() Shows the order details table.
  * @hooked WC_Structured_Data::generate_order_data() Generates structured data.
  * @hooked WC_Structured_Data::output_structured_data() Outputs structured data.
  * @since 2.5.0
  */
-				do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email);
+do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email);
 
-				/*
+/*
  * @hooked WC_Emails::order_meta() Shows order meta data.
  */
-				do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
 
+/*
+ * @hooked WC_Emails::customer_details() Shows customer details
+ * @hooked WC_Emails::email_address() Shows email address
+ */
+// do_action('woocommerce_email_customer_details', $order, $sent_to_admin, $plain_text, $email);
 
-				?>
-
-				<tr>
-					<td align="center" valign="top" bgcolor="#f7f7f7" class="side-pad">
-						<table class="body" style="font-family: Arial, sans-serif; max-width: 600px; ; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-							<tbody>
-								<tr>
-									<td align="center" bgcolor="#f7f7f7">
-										<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-											<tbody>
-
-												<tr>
-													<td style="font-family: 'open-sans',sans-serif ;font-size: 14px ; color: #777777 ; line-height: 18px ; ">
-
-														<br />
-														<br />
-														<strong style="color: #181818"><img src="https://www.flinqproducts.nl/wp-content/uploads/2021/12/arrow.png" width="6" height="17" alt="" /> Additional Note:</strong><br />
-														<?php
-
-														/**
-														 * Show user-defined additional content - this is set in each email's settings.
-														 */
-														if ($additional_content) {
-															echo wp_kses_post(wpautop(wptexturize($additional_content)));
-														}
-
-														?>
-													</td>
-												</tr>
-												<tr>
-													<td class="column" align="center">&nbsp;</td>
-												</tr>
-
-
+?>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                background-color: #ffffff;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
+					<tbody>
+						<tr>
+							<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            padding-top: 5px;
+                                                            padding-bottom: 5px;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="100%">
+								<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+									<tr>
+										<td class="pad" style="
+                                                                        width: 100%;
+                                                                        padding-right: 0px;
+                                                                        padding-left: 0px;
+                                                                        padding-top: 40px;
+                                                                    ">
+											<div align="center" class="alignment" style="
+                                                                            line-height: 10px;
+                                                                        ">
 												<?php
+												/**
+												 * Show user-defined additional content - this is set in each email's settings.
+												 */
+												if ($additional_content) {
+													echo wp_kses_post(wpautop(wptexturize($additional_content)));
+												}
+												?>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-												/*
+
+<?php
+
+/*
  * @hooked WC_Emails::email_footer() Output the email footer
  */
-												do_action('woocommerce_email_footer', $email);
+do_action('woocommerce_email_footer', $email);

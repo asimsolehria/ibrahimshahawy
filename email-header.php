@@ -21,255 +21,328 @@ if (!defined('ABSPATH')) {
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
-	<meta charset="utf-8">
-
-
-
-
-
-
-
-
-
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-
-
-
-
-
-
-	<meta content="#EEEEEE" name="sr bgcolor">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<title> voltcandy </title>
-
-
-
-
-
-
-
-
-
-	<!--[if (gte mso 9)|(IE)]>
-
-
-
-
-
-
-
-    <style type="text/css">
-
-
-
-
-
-
-
-        table {border-collapse: collapse;}
-
-
-
-
-
-
-
-    </style>
-
-
-
-
-
-
-
-    <![endif]-->
-
-
-
-
-
-
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<!--[if mso
+            ]><xml
+                ><o:OfficeDocumentSettings
+                    ><o:PixelsPerInch>96</o:PixelsPerInch
+                    ><o:AllowPNG /></o:OfficeDocumentSettings></xml
+        ><![endif]-->
+	<!--[if !mso]><!-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet" type="text/css" />
+	<!--<![endif]-->
 
 </head>
 
-
-
-
-
-
-
-<body style=" font-family:Arial, sans-serif; -webkit-text-size-adjust:none; background-color:#f7f7f7;">
-	<table style="font-family: Arial, sans-serif; background-color: #ffffff;" border="0" cellspacing="0" cellpadding="0" width="100%" data-bgcolor="Body Background" data-module="TJ 01">
+<body style="
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+        ">
+	<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+                background-color: #f2f2f2;
+            " width="100%">
 		<tbody>
 			<tr>
-				<td align="center" valign="top" bgcolor="#f7f7f7"></td>
-			</tr>
-			<tr>
-				<td align="center" valign="top" bgcolor="#000000">
-					<table class="body" style="font-family: Arial, sans-serif; max-width: 620px; background-color: #fff; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+				<td>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
 						<tbody>
 							<tr>
-								<td align="center" bgcolor="#FFFFFF">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+								<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
 										<tbody>
 											<tr>
-												<td class="column center" style="font-size: 12px ; color: #FFFFFF ; padding: 7px 0px ; " bgcolor="#000000">We carry A wide variety range of products shipped from USA</td>
-											</tr>
-										</tbody>
-									</table>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td align="center" valign="top" bgcolor="#6DCEEB">
-					<table class="body" style="font-family: Arial, sans-serif; max-width: 620px; ; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
-						<tbody>
-							<tr>
-								<td align="center">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
-										<tbody>
-											<tr>
-												<td class="column center" style="font-size: 12px ; color: #FFFFFF ; padding: 20px 0px ; " bgcolor="#6DCEEB"><img src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/voltcandy-01.png" width="250" alt="" /></td>
-											</tr>
-										</tbody>
-									</table>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td align="center" valign="top" bgcolor="#f7f7f7">
-					<table class="body" style="font-family: Arial, sans-serif; max-width: 600px; background-color: #fff; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-						<tbody>
-							<tr>
-								<td align="center" bgcolor="#f7f7f7">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-										<tbody>
-											<tr>
-												<td class="column" align="center" style="font-size: 7px ; ">&nbsp;</td>
-											</tr>
-											<tr>
-												<td class="side-pad" align="center">
-													<table class="body" width="560" border="0" cellspacing="0" cellpadding="0">
-														<tbody>
-															<tr>
-																<td class="img-hide" align="center">
-																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																		<tbody>
-																			<tr>
-																				<td width="32%">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																						<tbody>
-																							<tr>
-																								<td width="12%"><img src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/package-box.png" width="50" height="17" alt="" /></td>
-																								<td width="88%" style="font-family: 'open-sans', sans-serif ;  ; font-size: 11px ; color: #9B9B9B  ">Products shipped from USA</td>
-																							</tr>
-																						</tbody>
-																					</table>
-																				</td>
-																				<td width="2%">&nbsp;</td>
-																				<td width="32%">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																						<tbody>
-																							<tr>
-																								<td width="12%"><img src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/return-box.png" width="50" height="17" alt="" /></td>
-																								<td width="88%" style="font-family: 'open-sans', sans-serif ;  ; font-size: 11px ; color: #9B9B9B  ">30 days return</td>
-																							</tr>
-																						</tbody>
-																					</table>
-																				</td>
-																				<td width="2%">&nbsp;</td>
-																				<td width="32%" style="font-family: 'open-sans' ; font-size: 12px ; color: #9B9B9B  ">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																						<tbody>
-																							<tr>
-																								<td width="12%"><img src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/free-shipping.png" width="50" height="17" alt="" /></td>
-																								<td width="88%" style="font-family: 'open-sans', sans-serif ;  ; font-size: 11px ; color: #9B9B9B  ">Free delivery from $150</td>
-																							</tr>
-																						</tbody>
-																					</table>
-																				</td>
-																			</tr>
-																		</tbody>
-																	</table>
-																</td>
-															</tr>
-														</tbody>
-													</table>
+												<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            padding-top: 5px;
+                                                            padding-bottom: 5px;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="100%">
+													<div class="spacer_block" style="
+                                                                height: 40px;
+                                                                line-height: 40px;
+                                                                font-size: 1px;
+                                                            ">
+														 
+													</div>
 												</td>
 											</tr>
-											<tr>
-												<td class="column" align="center" style="font-size: 7px ; ">&nbsp;</td>
-											</tr>
-
 										</tbody>
 									</table>
 								</td>
 							</tr>
 						</tbody>
 					</table>
-				</td>
-			</tr>
-			<tr>
-				<td align="center" valign="top" bgcolor="#f7f7f7">
-					<table class="body" style="font-family: Arial, sans-serif; max-width: 600px; background-color: #fff; margin: 0px auto; border-top: 1px solid #FFFFFF ; border-bottom: 1px solid #FFFFFF ; border-left: 1px solid #FFFFFF ; border-right: 1px solid #FFFFFF ; ;  border-radius: 8px ; display: block   " align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+					<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                background-image: url('');
+                                background-position: top center;
+                                background-repeat: no-repeat;
+                            ">
 						<tbody>
 							<tr>
-								<td align="center" bgcolor="#FFFFFF">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+								<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
 										<tbody>
 											<tr>
-												<td class="column" align="center" style="border-radius: 15px ;">&nbsp;</td>
-											</tr>
-											<tr>
-												<td class="side-pad" align="center">
-													<table class="body" width="560" border="0" cellspacing="0" cellpadding="0">
-														<tbody>
-															<tr>
-																<td class="column" align="center">
-																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																		<tbody>
-																			<tr>
-																				<td width="81%" style="font-family: 'open-sans', sans-serif ; font-size: 38px ;  ">
-																					<strong>
+												<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="50%">
+													<table border="0" cellpadding="0" cellspacing="0" class="image_block block-3" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+														<tr>
+															<td class="pad" style="
+                                                                        width: 100%;
+                                                                        padding-right: 0px;
+                                                                        padding-left: 0px;
+                                                                        padding-top: 25px;
+                                                                    ">
+																<div align="center" class="alignment" style="
+                                                                            line-height: 10px;
+                                                                        ">
+																	<img alt="demo_logo" class="fullMobileWidth" src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/voltcandy-01.png" style="
+                                                                                display: block;
+                                                                                height: auto;
+                                                                                border: 0;
+                                                                                width: 250px;
+                                                                                max-width: 100%;
+                                                                            " title="demo_logo" width="250" />
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table border="0" cellpadding="0" cellspacing="0" class="text_block block-5" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                                word-break: break-word;
+                                                            " width="100%">
+														<tr>
+															<td class="pad" style="
+                                                                        padding-bottom: 10px;
+                                                                        padding-left: 20px;
+                                                                        padding-right: 20px;
+                                                                        padding-top: 60px;
+                                                                    ">
+																<div style="
+                                                                            font-family: Tahoma,
+                                                                                Verdana,
+                                                                                sans-serif;
+                                                                        ">
+																	<div class="" style="
+                                                                                font-size: 14px;
+                                                                                font-family: 'Lato',
+                                                                                    Tahoma,
+                                                                                    Verdana,
+                                                                                    Segoe,
+                                                                                    sans-serif;
+                                                                                mso-line-height-alt: 16.8px;
+                                                                                color: #000000;
+                                                                                line-height: 1.2;
+                                                                            ">
+																		<p style="
+                                                                                    margin: 0;
+                                                                                    font-size: 30px;
+                                                                                    mso-line-height-alt: 36px;
+                                                                                ">
+																			<span style="
+                                                                                        font-size: 30px;
+                                                                                    "><strong>
+																					<span style="">
 																						<?php echo $email_heading; ?>
-																					</strong>
-																				</td>
-																			</tr>
-																		</tbody>
-																	</table>
-																</td>
-															</tr>
-														</tbody>
+																					</span>
+																				</strong>
+																			</span>
+																		</p>
+
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table border="0" cellpadding="0" cellspacing="0" class="button_block block-7" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+														<tr>
+															<td class="pad" style="
+                                                                        padding-bottom: 35px;
+                                                                        padding-left: 20px;
+                                                                        padding-right: 20px;
+                                                                        padding-top: 30px;
+                                                                        text-align: left;
+                                                                    ">
+																<div align="left" class="alignment">
+																	<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="www.example.com" style="height:44px;width:267px;v-text-anchor:middle;" arcsize="46%" strokeweight="0.75pt" strokecolor="#60BB44" fillcolor="#000000"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:16px"><!
+                                                                        [endif]--><a href="https://voltcandy.com/" style="
+                                                                                text-decoration: none;
+                                                                                display: inline-block;
+                                                                                color: #ffffff;
+                                                                                background-color: #1b1464;
+                                                                                border-radius: 20px;
+                                                                                width: auto;
+                                                                                border-top: 1px
+                                                                                    solid
+                                                                                    #1b1464;
+                                                                                font-weight: undefined;
+                                                                                border-right: 1px
+                                                                                    solid
+                                                                                    #1b1464;
+                                                                                border-bottom: 1px
+                                                                                    solid
+                                                                                    #1b1464;
+                                                                                border-left: 1px
+                                                                                    solid
+                                                                                    #1b1464;
+                                                                                padding-top: 5px;
+                                                                                padding-bottom: 5px;
+                                                                                font-family: 'Lato',
+                                                                                    Tahoma,
+                                                                                    Verdana,
+                                                                                    Segoe,
+                                                                                    sans-serif;
+                                                                                text-align: center;
+                                                                                mso-border-alt: none;
+                                                                                word-break: keep-all;
+                                                                            " target="_blank"><span style="
+                                                                                    padding-left: 40px;
+                                                                                    padding-right: 40px;
+                                                                                    font-size: 16px;
+                                                                                    display: inline-block;
+                                                                                    letter-spacing: normal;
+                                                                                "><span style="
+                                                                                        word-break: break-word;
+                                                                                    "><span data-mce-style="" style=""><strong><span data-mce-style="" style="
+                                                                                                    line-height: 32px;
+                                                                                                ">EXPLORE &nbsp; VOLTCANDY</span></strong></span></span></span></a>
+																	<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-2" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="50%">
+													<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-3" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+														<tr>
+															<td class="pad" style="
+                                                                        text-align: center;
+                                                                        width: 100%;
+                                                                        padding-top: 45px;
+                                                                    ">
+																<h1 style="
+                                                                            margin: 0;
+                                                                            color: #000000;
+                                                                            direction: ltr;
+                                                                            font-family: 'Lato',
+                                                                                Tahoma,
+                                                                                Verdana,
+                                                                                Segoe,
+                                                                                sans-serif;
+                                                                            font-size: 16px;
+                                                                            font-weight: normal;
+                                                                            letter-spacing: normal;
+                                                                            line-height: 120%;
+                                                                            text-align: center;
+                                                                            margin-top: 0;
+                                                                            margin-bottom: 0;
+                                                                        ">
+																	<span style="
+                                                                                color: #000000;
+                                                                            "><a href="https://voltcandy.com/" rel="noopener" style="
+                                                                                    text-decoration: none;
+                                                                                    color: #000000;
+                                                                                " target="_blank"><strong>VISIT
+																				OUR
+																				STORE
+																				>></strong></a></span>
+																</h1>
+															</td>
+														</tr>
+													</table>
+													<table border="0" cellpadding="0" cellspacing="0" class="image_block block-5" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+														<tr>
+															<td class="pad" style="
+                                                                        width: 100%;
+                                                                        padding-right: 0px;
+                                                                        padding-left: 0px;
+                                                                        padding-top: 45px;
+                                                                        padding-bottom: 25px;
+                                                                    ">
+																<div align="center" class="alignment" style="
+                                                                            line-height: 10px;
+                                                                        ">
+																	<img alt="buyer" src="https://voltcandy.com/volt-stage/wp-content/uploads/2022/09/candy-removebg-preview.png" style="
+                                                                                display: block;
+                                                                                height: auto;
+                                                                                border: 0;
+                                                                                width: 301px;
+                                                                                max-width: 100%;
+                                                                            " title="buyer" width="301" />
+																</div>
+															</td>
+														</tr>
 													</table>
 												</td>
 											</tr>
-											<tr>
-												<td class="column" align="center">&nbsp;</td>
-											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					

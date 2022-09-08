@@ -24,118 +24,135 @@ if (!defined('ABSPATH')) {
 
 <?php do_action('woocommerce_email_header', $email_heading, $email); ?>
 
-<tr>
-	<td class="side-pad" align="center">&nbsp;</td>
-</tr>
-<tr>
-	<td align="center"></td>
-</tr>
-<tr>
-	<td align="center"></td>
-</tr>
-</tbody>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                background-color: #ffffff;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
+					<tbody>
+						<tr>
+							<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            padding-top: 5px;
+                                                            padding-bottom: 5px;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="100%">
+								<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+									<tr>
+										<td class="pad" style="
+                                                                        width: 100%;
+                                                                        padding-right: 0px;
+                                                                        padding-left: 0px;
+                                                                        padding-top: 40px;
+                                                                    ">
+											<div align="center" class="alignment" style="
+                                                                            line-height: 10px;
+                                                                        ">
+												<?php /* translators: %s: Customer username */ ?>
+												<p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($user_login)); ?></p>
+												<?php /* translators: %s: Store name */ ?>
+												<p><?php printf(esc_html__('Someone has requested a new password for the following account on %s:', 'woocommerce'), esc_html(wp_specialchars_decode(get_option('blogname'), ENT_QUOTES))); ?></p>
+												<?php /* translators: %s: Customer username */ ?>
+												<p><?php printf(esc_html__('Username: %s', 'woocommerce'), esc_html($user_login)); ?></p>
+												<p><?php esc_html_e('If you didn\'t make this request, just ignore this email. If you\'d like to proceed:', 'woocommerce'); ?></p>
+												<p>
+													<a class="link" href="<?php echo esc_url(add_query_arg(array('key' => $reset_key, 'id' => $user_id), wc_get_endpoint_url('lost-password', '', wc_get_page_permalink('myaccount')))); ?>"><?php // phpcs:ignore 
+																																																												?>
+														<?php esc_html_e('Click here to reset your password', 'woocommerce'); ?>
+													</a>
+												</p>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
 </table>
-</td>
-</tr>
-</tbody>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="
+                                                mso-table-lspace: 0pt;
+                                                mso-table-rspace: 0pt;
+                                                background-color: #ffffff;
+                                                color: #000000;
+                                                width: 680px;
+                                            " width="680">
+					<tbody>
+						<tr>
+							<td class="column column-1" style="
+                                                            mso-table-lspace: 0pt;
+                                                            mso-table-rspace: 0pt;
+                                                            font-weight: 400;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            padding-top: 5px;
+                                                            padding-bottom: 5px;
+                                                            border-top: 0px;
+                                                            border-right: 0px;
+                                                            border-bottom: 0px;
+                                                            border-left: 0px;
+                                                        " width="100%">
+								<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="
+                                                                mso-table-lspace: 0pt;
+                                                                mso-table-rspace: 0pt;
+                                                            " width="100%">
+									<tr>
+										<td class="pad" style="
+                                                                        width: 100%;
+                                                                        padding-right: 0px;
+                                                                        padding-left: 0px;
+                                                                        padding-top: 40px;
+                                                                    ">
+											<div align="center" class="alignment" style="
+                                                                            line-height: 10px;
+                                                                        ">
+												<?php
+												/**
+												 * Show user-defined additional content - this is set in each email's settings.
+												 */
+												if ($additional_content) {
+													echo wp_kses_post(wpautop(wptexturize($additional_content)));
+												}
+												?>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
 </table>
-</td>
-</tr>
-<tr>
-	<td align="center"></td>
-</tr>
-<tr>
-	<td align="center"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-<tr>
-	<td align="center" valign="top" bgcolor="#f7f7f7">
-		<table class="body" style="font-family: Arial, sans-serif; max-width: 600px; background-color: #fff; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-			<tbody>
-				<tr>
-					<td align="center" bgcolor="#FFFFFF">
-						<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-							<tbody>
-								<tr>
-									<td class="column" align="center" style="padding-bottom: 20;">
-										<?php /* translators: %s: Customer username */ ?>
-										<p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($user_login)); ?></p>
-										<?php /* translators: %s: Store name */ ?>
-										<p><?php printf(esc_html__('Someone has requested a new password for the following account on %s:', 'woocommerce'), esc_html(wp_specialchars_decode(get_option('blogname'), ENT_QUOTES))); ?></p>
-										<?php /* translators: %s: Customer username */ ?>
-										<p><?php printf(esc_html__('Username: %s', 'woocommerce'), esc_html($user_login)); ?></p>
-										<p><?php esc_html_e('If you didn\'t make this request, just ignore this email. If you\'d like to proceed:', 'woocommerce'); ?></p>
-										<p>
-											<a class="link" href="<?php echo esc_url(add_query_arg(array('key' => $reset_key, 'id' => $user_id), wc_get_endpoint_url('lost-password', '', wc_get_page_permalink('myaccount')))); ?>"><?php // phpcs:ignore 
-																																																										?>
-												<?php esc_html_e('Click here to reset your password', 'woocommerce'); ?>
-											</a>
-										</p>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</td>
-</tr>
-<tr>
-	<td align="center" valign="top" bgcolor="#f7f7f7">&nbsp;</td>
-</tr>
+<?php
 
 
-
-<tr>
-	<td align="center" valign="top" bgcolor="#f7f7f7" class="side-pad">
-		<table class="body" style="font-family: Arial, sans-serif; max-width: 600px; ; margin: 0px auto;" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-			<tbody>
-				<tr>
-					<td align="center" bgcolor="#f7f7f7">
-						<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-							<tbody>
-
-								<tr>
-									<td style="font-family: 'open-sans',sans-serif ;font-size: 14px ; color: #777777 ; line-height: 18px ; ">
-
-										<br />
-										<br />
-										<strong style="color: #181818"><img src="https://www.flinqproducts.nl/wp-content/uploads/2021/12/arrow.png" width="6" height="17" alt="" /> Additional Note:</strong><br />
-										<?php
-
-										/**
-										 * Show user-defined additional content - this is set in each email's settings.
-										 */
-										if ($additional_content) {
-											echo wp_kses_post(wpautop(wptexturize($additional_content)));
-										}
-
-										?>
-									</td>
-								</tr>
-								<tr>
-									<td class="column" align="center">&nbsp;</td>
-								</tr>
-
-
-								<?php
-
-
-								do_action('woocommerce_email_footer', $email); ?>
+do_action('woocommerce_email_footer', $email);
