@@ -101,7 +101,7 @@ $text_align = is_rtl() ? 'right' : 'left'; ?>
                                         </td>
                                     </tr>
                                 </table>
-                                <table border="0" cellpadding="10" cellspacing="0" class="text_block block-4" role="presentation" style="
+                                <!-- <table border="0" cellpadding="10" cellspacing="0" class="text_block block-4" role="presentation" style="
                                                                 mso-table-lspace: 0pt;
                                                                 mso-table-rspace: 0pt;
                                                                 word-break: break-word;
@@ -141,7 +141,7 @@ $text_align = is_rtl() ? 'right' : 'left'; ?>
                                             </div>
                                         </td>
                                     </tr>
-                                </table>
+                                </table> -->
                                 <table border="0" cellpadding="10" cellspacing="0" class="text_block block-6" role="presentation" style="
                                                                 mso-table-lspace: 0pt;
                                                                 mso-table-rspace: 0pt;
